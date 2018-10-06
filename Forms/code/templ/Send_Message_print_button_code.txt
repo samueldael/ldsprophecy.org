@@ -1,0 +1,1 @@
+<input type='button' name='sfm_confirm_print' value='Print' onclick='window.print()' onclick='javascript: window.print();'/>

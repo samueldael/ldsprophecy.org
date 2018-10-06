@@ -1,0 +1,209 @@
+#Send_Message .sfm_textbox
+{
+    padding:1px;
+}
+#Send_Message .sfm_textarea
+{
+    padding:2px;
+    resize:none;
+}
+#Send_Message .error_strings
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#660000;
+}
+#Send_Message img
+{
+    border:0;
+}
+#Send_Message .loading_div
+{
+    background-color:transparent;
+    background-image:url("images/loading.gif");
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#Send_Message input[type='submit'],input[type='reset']
+{
+    font:inherit;
+    color:inherit;
+}
+#Send_Message .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+}
+#Send_Message .sfm_cr_box a
+{
+    color:#888888;
+}
+#Send_Message .form_outer_div
+{
+    border:2px solid #a52a00;
+    background-color:#ffffff;
+}
+#Send_Message .sfm_form_label
+{
+    background-color:transparent;
+    font-family:Verdana;
+    font-size:12px;
+    color:#000000;
+}
+#Send_Message .element_label
+{
+    background-color:transparent;
+    font-family:Verdana;
+    font-size:12px;
+    color:#000000;
+}
+body#sfm_Send_Message_body
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    margin:0px;
+}
+#Send_Message .form_outer_div
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#Send_Message .form_subheading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#Send_Message .sfm_float_error_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+    background:none repeat scroll 0 0 #333333;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow:0 0 4px #333;
+    border:none;
+}
+#Send_Message .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+}
+#Send_Message .progress_box_container
+{
+    border:1px solid #8e8e8e;
+    background-color:#cccccc;
+    font-family:Arial;
+    font-size:10px;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:middle;
+}
+#Send_Message .progress_box
+{
+    background-color:#333333;
+    width:2px;
+    float:left;
+    margin:2px;
+}
+#Send_Message .page_heading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#Send_Message .page_number
+{
+    background-color:transparent;
+}
+
+
+#Send_Message #tc2e50299dee6d63becca
+{
+    width:5px;
+    height:5px;
+    display:none;
+}
+#Send_Message #heading_container
+{
+    position:absolute;
+    left:24px;
+    top:24px;
+    width:229px;
+    height:30px;
+    z-index:5;
+}
+#Send_Message #heading
+{
+    position:absolute;
+    top:5px;
+    left:0px;
+    text-align:left;
+}
+#Send_Message #label_container
+{
+    position:absolute;
+    left:32px;
+    top:72px;
+    width:60px;
+    height:20px;
+    z-index:1;
+}
+#Send_Message #label
+{
+    position:absolute;
+    top:2px;
+    left:0px;
+    text-align:left;
+}
+#Send_Message #Textbox_container
+{
+    position:absolute;
+    left:34px;
+    top:92px;
+    z-index:3;
+}
+#Send_Message #Textbox
+{
+    float:left;
+    width:114px;
+    z-index:3;
+}
+#Send_Message #label1_container
+{
+    position:absolute;
+    left:29px;
+    top:142px;
+    width:60px;
+    height:43px;
+    z-index:2;
+}
+#Send_Message #label1
+{
+    position:absolute;
+    top:14px;
+    left:0px;
+    text-align:left;
+}
+#Send_Message #Multiline_container
+{
+    position:absolute;
+    left:33px;
+    top:176px;
+    z-index:4;
+}
+#Send_Message #Multiline
+{
+    float:left;
+    width:156px;
+    height:75px;
+    z-index:4;
+}

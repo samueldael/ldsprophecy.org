@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title >Form Page: Send_Message</title>
+      <meta name='generator' content='Simfatic Forms 4.0.12.416'/>
+      <script src='../../../Send_Message/code/templ/scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='../../../Send_Message/code/templ/scripts/sfm_validatorv7.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='../../../Send_Message/code/templ/style/Send_Message.css?r=%sfm_css_rand%'/>
+   </head>
+   <body id='sfm_Send_Message_body'>
+      <form id='Send_Message' class='sfm_form' method='post' action='../../../Send_Message/code/templ/%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='Send_Message_errorloc' class='error_strings' style='width:300px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='Send_Message_outer_div' class='form_outer_div' style='width:300px;height:400px'>
+            <div style='position:relative' id='Send_Message_inner_div'>
+               <input type='hidden' name='sfm_form_submitted' value='yes'/>
+               <input type='hidden' name='%_sfm_form_id_iput_var_%' value='%_sfm_form_id_iput_value_%'/>
+               <input type='text' name='tc2e50299dee6d63becca' id='tc2e50299dee6d63becca'/>
+               <div id='heading_container' class='form_subheading'>
+                  <h2 id='heading' class='form_subheading'>Send Samuel a Question</h2>
+               </div>
+               <div id='label_container' class='sfm_form_label'>
+                  <label id='label'>Subject</label>
+               </div>
+               <div id='Textbox_container'>
+                  <input type='text' name='Textbox' id='Textbox' value='%Textbox%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label1_container' class='sfm_form_label'>
+                  <label id='label1'>Question</label>
+               </div>
+               <div id='Multiline_container'><textarea name='Multiline' id='Multiline' class='sfm_textarea'>%Multiline%</textarea></div>
+            </div>
+         </div>
+      </form>
+      <script type='text/javascript'>
+// <![CDATA[
+var Send_MessageValidator = new Validator("Send_Message");
+Send_MessageValidator.addValidation("Textbox",{required:true,message:"Please fill in Textbox"} );
+Send_MessageValidator.addValidation("Textbox",{alpha_s:true,message:"The input for Textbox should be a valid alphabetic value"} );
+Send_MessageValidator.addValidation("Multiline",{required:true,message:"Please fill in Multiline"} );
+Send_MessageValidator.addValidation("Multiline",{maxlen:"300",message:"The length of the input for Multiline should not exceed 300"} );
+Send_MessageValidator.addValidation("Multiline",{minlen:"24",message:"The length of the input for Multiline should be at least 24."} );
+
+// ]]>
+      </script>
+   </body>
+</html>

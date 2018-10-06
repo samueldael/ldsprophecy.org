@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+      <title >Confirm form submission</title>
+      <meta content="text/html; charset=utf-8" http-equiv='Content-Type'/>
+      <style >
+body 
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+}
+
+div.sfm_table_container
+{
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.sfm_table_container table
+{
+	border-width:0px;
+}
+
+.sfm_table_container table td
+{
+    font-size : 10pt;
+	text-align: left;
+	border-bottom:1px solid #DEDEDE;
+	padding:5px;
+}
+
+.sfm_table_container table td.FieldName
+{
+	font-weight:bold;
+	vertical-align: top;
+}
+
+.sfm_table_container table td.FieldValue 
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+}
+
+.ButtonBox
+{
+	white-space:nowrap;
+    margin-top:15px;
+}
+
+
+form.sfm_confirm
+{
+    display:inline;
+}
+@media print 
+{
+	.sfm_print_button
+	{
+		display:none;
+	}
+	form.sfm_confirm
+	{
+		display:none;
+	}
+}
+      </style>
+      <meta name='GENERATOR' content='MSHTML 10.00.9200.17183'/>
+   </head>
+   <body onload='window.parent.scroll(0,0);' style='BACKGROUND-COLOR: transparent'>
+      <h2 >Please Confirm...</h2>
+      <div >
+Press the 'Confirmed' button to proceed with the submission.         <br />
+If you want 
+to make changes, press the 'Edit' button.
+      </div>
+      <div class='sfm_table_container'>
+         <table cellSpacing='0' cellPadding='5'>
+            <tbody >
+               <tr >
+                  <td class='FieldName'>Textbox</td>
+                  <td class='FieldValue'>%Textbox%</td>
+               </tr>
+               <tr >
+                  <td class='FieldName'>Multiline</td>
+                  <td class='FieldValue'>%Multiline%</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <p ></p>
+      <div class='ButtonBox'>
+%_sfm_print_button_% %_sfm_edit_button_% 
+%_sfm_confirm_button_%
+      </div>
+
+<!--{ExtraCodePlace}-->
+   </body>
+</html>

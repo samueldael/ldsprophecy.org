@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	background-image: url(file:///Macintosh%20HD/Users/ronaldkelsch/Documents/Dreamweaver/mormon-lessons.org/background/antique-background.png);
+	margin-left: 15px;
+	margin-right: 15px;
+}
+</style>
+<body>
+
+<h2>Send Samuel a Question</h2>
+<p>Honest questions will be answered at samueldael.org/answers</p>
+<p>Subject:</p>
+<input type="text" name="subject" value="subject"><br>
+<br>
+
+<p>Question:<br>
+</p>
+<form id="form1" name="form1" method="post" action="">
+  <label for="message"></label>
+  <textarea name="message" id="message" cols="45" rows="5"></textarea><p></p>
+
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+<?php
+    mail('louis@samueldael.org', $_POST['subject'], $_POST['message']);
+?>
+<p>Your email has been sent.</p>
+</body>
+</html>
